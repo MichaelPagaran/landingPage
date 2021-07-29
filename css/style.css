@@ -75,3 +75,14 @@ a{
 .clr{
     clear: both;
 }
+
+@media(max-width: 800px){/*if media width is 600px below, do this*/
+    .chMidContainer{
+        width: 100%;
+        float: none;
+        margin-bottom: 10%;
+    }
+    .footer{
+        position: inherit;
+    }
+}
